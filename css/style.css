@@ -1,0 +1,60 @@
+@charset "utf-8";
+* {margin:0; padding:0; list-style:none; font-size:13px}
+nav {border-bottom:1px solid #c7c7c9; height:40px; background:#f7f7f7}
+nav ul {}
+nav ul li {width:24.5%; float:left; text-align:center; border-left:1px solid #e0e0e0; border-right:1px solid #fff; padding:3px 0}
+nav ul li:last-child {border-right:none}
+img {border:none}
+
+#wrapper {padding:12px 9px; clear:both}
+#wrapper h2 {font-size:13px; color:#b5422d}
+#wrapper p {font-size:12px; color:#2d271b; margin:14px 0}
+#wrapper p img {margin:0 auto}
+#wrapper dl {border:1px solid #d9d0c6}
+#wrapper dl dt {padding:5px; color:#fff; font-weight:bold}
+#wrapper dl dd {padding:5px}
+#wrapper dl.yellow dt {background:#ffcc00}
+#wrapper dl.orange dt {background:#ffa800}
+#wrapper dl.darkOrange dt {background:#ff8700}
+#wrapper dl.red dt {background:#ee4d00}
+
+#wrapper div.arrow {background:url(../images/img_step.png) no-repeat; width:20px; height:13px; margin:10px auto}
+
+#wrapper h3 {color:#b5422d; position:relative; padding:5px}
+#wrapper h3 a {position:absolute; top:-3px; right:0}
+#wrapper table {border-collapse:collapse; margin-bottom:20px}
+#wrapper table thead th {background:#d7cfc2; border:1px solid #89796a; padding:7px}
+#wrapper table tbody th {background:#d7cfc2; border:1px solid #89796a; padding:7px; text-align:left}
+#wrapper table tbody td {border:1px solid #89796a; padding:7px}
+
+
+ul.tabMenu {margin:20px 5px}
+ul.tabMenu li {width:30%; text-align:center; background:#f2efea; float:left; padding:10px 5px; border:1px solid #c8b6aa}
+ul.tabMenu li.select {border-bottom:none; background:#fff}
+ul.tabMenu li a {text-decoration:none; color:#1f1f1f}
+
+div.gray {background:#f8f7f3; padding:10px 10px 30px 10px; position:relative}
+div.gray .btnBack {position:absolute; bottom:5px; left:5px}
+div.gray .btnTop {position:absolute; bottom:5px; right:5px}
+
+footer {background:url("../images/bg_bottom.png") repeat-x;}
+footer ul {}
+footer ul li {float:left; text-align:center; width:24.5%; padding:7px 0; border-left:1px solid #c4b9ad; border-right:1px solid #8c7f76; border-bottom:1px solid #35271e}
+footer ul li:last-child {border-right:none}
+footer ul li a {text-decoration:none; color:#281906}
+footer div.banner {text-align:center}
+
+
+#step {}
+#step dl {}
+#step dl dt {border-top:2px solid #977657; border-bottom:1px solid #c4b6b3; background:#f2efea; padding:11px 9px}
+#step dl dd {padding:11px 9px}
+#step dl dd p.img {text-align:center}
+#step dl dd p span {color:#ff7e00}
+
+div.info {background:#f8f7f3; padding:10px}
+div.info h3 {color:#b5422d}
+div.info .img {text-align:center; padding:10px}
+div.info ul {margin:5px}
+div.info ul li {margin-bottom:10px}
+div.info ul li span {color:#774218}
