@@ -1,5 +1,6 @@
 @charset "utf-8";
 * {margin:0; padding:0; list-style:none; font-size:13px}
+table {border-collapse:collapse; }
 nav {border-bottom:1px solid #c7c7c9; height:40px; background:#f7f7f7}
 nav ul {}
 nav ul li {width:24.5%; float:left; text-align:center; border-left:1px solid #e0e0e0; border-right:1px solid #fff; padding:3px 0}
@@ -51,6 +52,10 @@ footer div.banner {text-align:center}
 #step dl dd {padding:11px 9px}
 #step dl dd p.img {text-align:center}
 #step dl dd p span {color:#ff7e00}
+
+.product {width:210px; height:95px}
+.product li {float:left}
+.info {clear:both; margin-top:10px}
 
 div.info {background:#f8f7f3; padding:10px}
 div.info h3 {color:#b5422d}
