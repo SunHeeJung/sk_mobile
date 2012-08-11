@@ -10,6 +10,36 @@
 </style>
 <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript">
+var response = [
+	["상품설명0"],
+	["상품설명1"],
+	["상품설명2"],
+	["상품설명3"],
+	["상품설명4"],
+	["상품설명5"],
+	["상품설명6"],
+	["상품설명7"],
+	["상품설명8"],
+	["상품설명9"],
+	["상품설명10"],
+	["상품설명11"],
+	["상품설명12"],
+	["상품설명13"],
+	["상품설명14"]
+],
+idx;
+$(window).ready(function(){
+	for(var i=0; i<15; i++){
+		$("#btnStep"+i).click(function(e){
+			$("#btnStep"+idx).css("opacity", "1")
+			idx = e.target.parentNode.id.substr(7)
+			info = $(e.target.parentNode.parentNode.parentNode).find(".info").html(response[idx][0]);
+			$("#btnStep"+idx).css("opacity", "0.5")
+		})
+	}
+})
+</script>
 </head>
 
 <body>
@@ -40,7 +70,15 @@
 		<dt><img src="images/step0.png" al=""></dt>
 		<dd>
 			<p>나는 편안하게 중장기로 투자하며 안정적인 투자수익을 원한다</p>
-			<p class="img"><img src="images/img_step0.png" alt=""></p>
+			<ul class="product">
+				<li id="btnStep0"><img src="images/img_step0a.png" alt=""></li>
+				<li id="btnStep1"><img src="images/img_step0b.png" alt=""></li>
+				<li id="btnStep2"><img src="images/img_step0c.png" alt=""></li>
+				<li id="btnStep3"><img src="images/img_step0d.png" alt=""></li>
+				<li id="btnStep4"><img src="images/img_step0e.png" alt=""></li>
+				<li id="btnStep5"><img src="images/img_step0f.png" alt=""></li>
+			</ul>
+			<p class="info">d</p>
 		</dd>
 	</dl>
 	
@@ -48,7 +86,13 @@
 		<dt><img src="images/step1.png" al=""></dt>
 		<dd>
 			<p>나는 시장의 흐름을 따라가며 안정적이면서 좋은 종목을 골라 투자하고 싶다</p>
-			<p class="img"><img src="images/img_step1.png" alt=""></p>
+			<ul class="product">
+				<li id="btnStep6"><img src="images/img_step1a.png" alt=""></li>
+				<li id="btnStep7"><img src="images/img_step1b.png" alt=""></li>
+				<li id="btnStep8"><img src="images/img_step1c.png" alt=""></li>
+				<li id="btnStep9"><img src="images/img_step1d.png" alt=""></li>
+			</ul>
+			<p class="info">d</p>
 		</dd>
 	</dl>
 	
@@ -56,9 +100,14 @@
 		<dt><img src="images/step2.png" al=""></dt>
 		<dd>
 			<p>나는 시황 변동에 따라 종목 교체를 하면서 높은 수익을 추구하고 싶다 </p>
-			<p class="img"><img src="images/img_step2.png" alt=""></p>
-			<p>※ 상단 전략명을 클릭하시면 하단에서 전략별 특징을 조회 하실수 있습니다</p> 
-
+			<ul class="product">
+				<li id="btnStep10"><img src="images/img_step2a.png" alt=""></li>
+				<li id="btnStep11"><img src="images/img_step2b.png" alt=""></li>
+				<li id="btnStep12"><img src="images/img_step2c.png" alt=""></li>
+				<li id="btnStep13"><img src="images/img_step2d.png" alt=""></li>
+				<li id="btnStep14"><img src="images/img_step2e.png" alt=""></li>
+			</ul>
+			<p class="info">d</p>
 		</dd>
 	</dl>
 </div>
