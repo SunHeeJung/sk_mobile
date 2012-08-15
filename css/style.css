@@ -33,7 +33,10 @@ ul.tabMenu {margin:20px 5px}
 ul.tabMenu li {width:30%; text-align:center; background:#f2efea; float:left; padding:10px 5px; border:1px solid #c8b6aa}
 ul.tabMenu li.select {border-bottom:none; background:#fff}
 ul.tabMenu li a {text-decoration:none; color:#1f1f1f}
-ul.m4 li {width:23.9%}
+div.m4 {width:95%; padding:0; margin:0 auto}
+div.m4 ul {width:100%; margin:20px 0}
+div.m4 ul li {width:25%; border:none; padding:0}
+div.m4 ul li a {padding:9px 0; border:1px solid #C8B6AA; display:block}
 
 div.gray {background:#f8f7f3; padding:10px 10px 30px 10px; position:relative}
 div.gray .btnBack {position:absolute; bottom:5px; left:5px}
@@ -51,11 +54,12 @@ footer div.banner {text-align:center}
 #step dl {}
 #step dl dt {border-top:2px solid #977657; border-bottom:1px solid #c4b6b3; background:#f2efea; padding:11px 9px}
 #step dl dd {padding:11px 9px}
+#step dl dd p {margin:0 auto; text-align:center}
 #step dl dd p.img {text-align:center}
 #step dl dd p span {color:#ff7e00}
 
-.product {width:210px; height:95px}
-.product li {float:left}
+.product {width:210px; padding-top:10px; margin:0 auto}
+.product li {float:left; height:34px}
 .info {clear:both; margin-top:10px}
 
 div.info {background:#f8f7f3; padding:10px}
